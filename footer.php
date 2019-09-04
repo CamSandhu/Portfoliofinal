@@ -46,6 +46,14 @@
     event.preventDefault();
   });
 });
-
+  $(window).scroll(function(){
+    var scroll= $(window).scrollTop();
+    if(scroll=50){
+      $('header').fadeOut(300)
+    }
+    else if(scroll>630){
+      $('header').css("position", "fixed").fadeIn(300)
+    }
+  })
   </script>
 </html>

@@ -10,10 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
 Text Domain: myportfolio
 */
-<?php
-header("Content-type: text/css");
 
-?>
 body {
   margin: 0;
   font-family: Open Sans, sans-serif;
@@ -21,19 +18,13 @@ body {
   box-sizing: border-box;
 }
 .container:first-of-type {
-  background: url('resources/topimg.png') no-repeat fixed center;
+  background: url("resources/topimg.png") no-repeat fixed center;
   height: 630px;
   background-size: cover;
   overflow-x: none;
- 
 }
 
 /*--------------------icon------------------*/
-
-i {
-  /*    text-align: center;
-        vertical-align: center;*/
-}
 
 /*---------------top part------------------*/
 nav ul:last-of-type {
@@ -135,12 +126,8 @@ main img {
   max-height: 250px;
   max-width: 100%;
 }
-<!-- a < img{
-  background-color:white;
-} -->
-
-.pc{
-  background:none;
+.pc {
+  background: none;
 }
 main section {
   text-align: center;
@@ -153,116 +140,106 @@ main a {
   padding: 5px;
   border-radius: 5px;
 }
-a < img{
-  background-color:none;
-}
 
 #description span:first-of-type {
   color: black;
   font-size: 38px;
   line-height: 38px;
   font-weight: bold;
-  max-width:150px;
+  max-width: 150px;
 }
 #description span:last-of-type {
   color: grey;
   display: block;
   font-size: 14px;
   line-height: 26px;
-  max-width:200px;
-  margin: 30px  auto;
-  
+  max-width: 200px;
+  margin: 30px auto;
 }
 #description {
   text-align: center;
 }
 .container2 {
   display: flex;
-  margin: 130px  auto ;
+  margin: 130px auto;
   flex-direction: row;
   justify-content: center;
 }
 
-hr{
-  border-color:#d6d6d6;
+hr {
+  border-color: #d6d6d6;
   border: 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 /*-- ----------------form--------------------------- --*/
-#send{
-  width:60px;
-  color:white;
+#send {
+  width: 60px;
+  color: white;
   background-color: #c62828;
-  border-radius:5px;
-  border:none;
-  padding:10px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
 }
-#contact-form h3{
-  font-size:35px;
-  color:black;
+#contact-form h3 {
+  font-size: 35px;
+  color: black;
 }
- #first-row {
-  display:flex;
+#first-row {
+  display: flex;
   flex-direction: row;
 }
 
-#second-row{
-  display:flex;
-  flex-direction:column;
+#second-row {
+  display: flex;
+  flex-direction: column;
   align-content: left;
 }
 
-
-#contact-form{
-  margin:auto ;
+#contact-form {
+  margin: auto;
 }
-label{
-  color:grey;
-  font-size:13px;
-  float:left;
+label {
+  color: grey;
+  font-size: 13px;
+  float: left;
 }
-input{
-  padding:5px 5px;
-}
-
-form section{
-  margin:auto;
-  max-width:700px;
+input {
+  padding: 5px 5px;
 }
 
+form section {
+  margin: auto;
+  max-width: 700px;
+}
 
 /*------------------------footer----------------------- */
 
-#footer a{
-  background:none;
-  color:grey;
-  font-size:14px;
-  margin:0 20px;
-  cursor:pointer;
- 
+#footer a {
+  background: none;
+  color: grey;
+  font-size: 14px;
+  margin: 0 20px;
+  cursor: pointer;
 }
-#footer{
-  margin-top:50px;
-  margin-bottom:70px;
+#footer {
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 /*----------------------------media queries----------*/
 @media (max-width: 680px) {
   .container2 {
     flex-direction: column;
-  
   }
-  #first-row{
-    flex-direction:column;
-   
+  #first-row {
+    flex-direction: column;
   }
-  textarea{
-    width:410px;
+  textarea {
+    width: 410px;
   }
-  input{
-    width:400px;
+  input {
+    width: 400px;
   }
   #heading:last-child p a {
     font-size: 13px;
@@ -295,5 +272,4 @@ form section{
   #heading p {
     text-align: center;
   }
- 
 }

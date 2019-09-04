@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.php" type="text/css" media="all" />
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="all" />
        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans"> 
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -46,8 +46,8 @@
 i am here to provide you what you want me to develop
                     </p>
                     <p>
-                        <a href="#">I need a website  <i class="fas fa-angle-right"></i></a>
-                        <a href="#">I am looking to hire <i class="fas fa-angle-right">  </i></a>
+                        <a href="mailto:cammmyyy@gmail.com?subject=i need a website">I need a website  <i class="fas fa-angle-right"></i></a>
+                        <a href="mailto:cammmyyy@gmail.com?subject=i want to hire">I am looking to hire <i class="fas fa-angle-right">  </i></a>
                     </p>
                 </section> 
           </section>
