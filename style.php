@@ -138,7 +138,7 @@ main img {
 main section {
   text-align: center;
 }
-main a:not( #footer a) {
+main a {
   background-color: #c62828;
   font-size: 12px;
   line-height: 32px;
@@ -226,11 +226,12 @@ form section{
 /*------------------------footer----------------------- */
 
 #footer a{
+  background-color:white;
   color:grey;
   font-size:14px;
   margin:0 20px;
   cursor:pointer;
-  decoration:none;
+ 
 }
 #footer{
   margin-top:50px;
