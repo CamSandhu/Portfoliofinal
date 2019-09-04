@@ -226,7 +226,7 @@ form section{
 /*------------------------footer----------------------- */
 
 #footer a{
-  background-color:white;
+  background:none;
   color:grey;
   font-size:14px;
   margin:0 20px;

@@ -42,9 +42,8 @@
           
                 <section id="heading">
                     <h2>Front-end Web Developer.</h2>
-                    <p>Based out of Halifax, NS. Specializing in custom WordPress theme development.
-                        If you are a business seeking a web presence or an employer looking to hire,
-                        you can get in touch with me here.
+                    <p>I am a dedicated front end developer who is eager to always try new frameworks and techniques.
+i am here to provide you what you want me to develop
                     </p>
                     <p>
                         <a href="#">I need a website  <i class="fas fa-angle-right"></i></a>
