@@ -42,7 +42,7 @@
   // }
   // $(window).scroll();
 
-  $(".container2 a").click(function(event){
+  $(".container2 a:not(a < img)").click(function(event){
     event.preventDefault();
   });
 });

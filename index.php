@@ -22,7 +22,7 @@
 
 <main>
       <section class="container2">
-        <section><img src=<?php echo get_theme_file_uri("/resources/php.png")?> /></section>
+        <section><a href="https://karam007.000webhostapp.com" target="/" class="pc"><img src=<?php echo get_theme_file_uri("/resources/php.png")?> /></a></section>
         >
         <section id="description">
           <span>My Pet</span>
@@ -35,7 +35,7 @@
      
 
       <section class="container2">
-      <section><img src=<?php echo get_theme_file_uri("/resources/marriage.png")?> /></section>
+      <section><a href="http://karam007.dk/fairytalewedding/" target="/" class="pc"><img src=<?php echo get_theme_file_uri("/resources/marriage.png")?> /></a></section>
         
         <section id="description">
           <span>Fairytale  </span>
@@ -47,7 +47,7 @@
       </section>
 
       <section class="container2">
-      <section><img src=<?php echo get_theme_file_uri("/resources/dottir.png")?> /></section>
+      <section><a href="http://karam007.dk/Music/" target="/" class="pc"><img src=<?php echo get_theme_file_uri("/resources/dottir.png")?> /></a></section>
         
         <section id="description">
           <span>Dottir</span>

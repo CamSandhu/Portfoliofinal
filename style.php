@@ -135,6 +135,13 @@ main img {
   max-height: 250px;
   max-width: 100%;
 }
+<!-- a < img{
+  background-color:white;
+} -->
+
+.pc{
+  background:none;
+}
 main section {
   text-align: center;
 }
@@ -145,6 +152,9 @@ main a {
   font-weight: 400;
   padding: 5px;
   border-radius: 5px;
+}
+a < img{
+  background-color:none;
 }
 
 #description span:first-of-type {
